@@ -1,0 +1,168 @@
+body {
+  height: 150vh;
+  background-image: url(../assets/quino-al-mBQIfKlvowM-unsplash.jpg);
+  background-position: center;
+  background-repeat: space;
+  background-size: fill;
+}
+/* header-style */
+header {
+  height: 80px;
+  background-color: gold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+header .logo {
+  width: 189px;
+  height: 31px;
+  align-items: center;
+}
+
+header .conteiner {
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  width: 600px;
+  justify-content: space-between;
+}
+nav a {
+  color: #3d37f1;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.d-flex {
+  display: flex;
+}
+.conteiner {
+  width: 1170px;
+  margin: 0 auto;
+  /* background-color: goldenrod; */
+  border: 5px solid black;
+}
+/* .section-style */
+.title-block {
+  width: 712px;
+  margin: 150px auto;
+
+  text-align: center;
+}
+.title-block h3 {
+  font-size: 20px;
+  color: blue;
+  margin-bottom: 25px;
+}
+.title-block h4 {
+  font-size: 40px;
+  color: #5a5454;
+  margin-bottom: 20px;
+}
+.title-block p {
+  font-size: 18px;
+  padding: 0 40px;
+}
+
+.body-card {
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 370px;
+  height: 450px;
+  background-color: #141414;
+}
+.block h4 {
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 60px;
+}
+.block p {
+  margin-top: 16px;
+  font-size: 16px;
+  color: white;
+  line-height: 1.5;
+  text-align: center;
+  width: 330px;
+  height: 62px;
+}
+.block a {
+  height: 45px;
+  width: 131px;
+  border-radius: 25px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  text-transform: capitalize;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* section1style */
+.midbody {
+  width: 70%;
+  height: 1100px;
+  border: 5px solid black;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.midblock {
+  width: 600px;
+  height: 450px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.midblock h1 {
+  color: grey;
+  font-size: 78px;
+}
+.midblock p {
+  color: grey;
+  font-size: 22px;
+}
+.midblock a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 80px;
+  color: white;
+  background-color: #3d37f1;
+  border-radius: 30px;
+  font-size: 36px;
+}
+
+/* .pseudo element */
+.block:nth-child(1),
+.block:nth-child(2),
+.block:nth-child(3) {
+  margin-bottom: 60px;
+}
+.block:nth-child(1) {
+  background-color: orange;
+}
+.block:nth-child(2) {
+  background-color: #41eae3;
+}
+.block:nth-child(3) {
+  background-color: #69529f;
+}
+.block:nth-child(4) {
+  background-color: #4386d2;
+}
+.block:nth-child(5) {
+  background-color: #a5a2f6;
+}
+.block:nth-child(6) {
+  background-color: #ff8088;
+}
